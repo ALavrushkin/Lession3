@@ -66,8 +66,24 @@
 
 
 ## Работа с таблицами
-Для начала работы с таблицами нужно сделать следующее: ввести команды
-ваывав
-вырпопопро
-ванекьролро
-выаываыва
+Для создания таблицы нужно разделять разделы таблицы знаком | и пробелами , а вторую строку сделать пунктирными линиями Например вот так:
+
+|Это   | просто  | Заголовок таблицы|
+-------|---------|------------------|
+|Дебит | Кредит  | Итого            |
+
+Столбцы можно выравнивать с помощью двоеточий например вот так:
+| Fun                  | With                 | Tables          |
+| :------------------- | -------------------: |:---------------:|
+| left-aligned column  | right-aligned column | centered column |
+| $100                 | $100                 | $100            |
+| $10                  | $10                  | $10             |
+| $1                   | $1                   | $1              |
+
+Можно еще составлять таблицы по такой аналогии:  
+
+>|Name|Syntax|Mandatory for silent installation?|Description|
+> |-------------|----------|---------|---------|
+> |Quiet|/quiet|Yes|Runs the installer, displaying no UI and no prompts.|
+> |NoRestart|/norestart|No|Suppresses any attempts to restart. By default, the UI will prompt before restart.|
+> |Help|/help|No|Provides help and quick reference. Displays the correct use of the setup command, including a list of all options and behaviors.|
