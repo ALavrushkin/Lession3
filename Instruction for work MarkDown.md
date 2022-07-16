@@ -87,3 +87,9 @@
 > |Quiet|/quiet|Yes|Runs the installer, displaying no UI and no prompts.|
 > |NoRestart|/norestart|No|Suppresses any attempts to restart. By default, the UI will prompt before restart.|
 > |Help|/help|No|Provides help and quick reference. Displays the correct use of the setup command, including a list of all options and behaviors.|
+
+Таблица с пустой ячейкой вверху слева делается вот так:
+|                  |Header 1 |Header 2|
+|------------------|---------|--------|
+|**First column A**|Cell 1A  |Cell 2A |
+|**First column B**|Cell 1B  |Cell 2B |
