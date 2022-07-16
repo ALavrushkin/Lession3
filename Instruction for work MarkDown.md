@@ -66,4 +66,4 @@
 
 
 ## Работа с таблицами
-Nothing information for work to table.
+
